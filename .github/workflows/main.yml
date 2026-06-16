@@ -14,5 +14,5 @@ jobs:
     runs-on: ubuntu-latest
 
   steps:
-    -name: Greatings
-    run: echo "Hello from my first workflow"
+    - name: Greatings
+      run: echo "Hello from my first workflow"
