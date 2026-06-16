@@ -1,14 +1,9 @@
-# Name of your Workflow
 name: My First Workflow
 
-# Make an event
-# This event work when push the code
 on: 
   push:
     branches: [ main ]
 
-# Create Jobs, that is perform the task
-# demo is job name
 jobs:
   demo:
     runs-on: ubuntu-latest
