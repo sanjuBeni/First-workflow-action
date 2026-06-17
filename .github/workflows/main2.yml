@@ -2,7 +2,7 @@ name: Schedule Workflow
 
 on: 
   schedule:
-    - cron: '4 9 * * *'
+    - cron: '10 9 * * *'
 
 jobs:
   demo:
@@ -10,4 +10,4 @@ jobs:
 
     steps:
       - name: Greeting
-        run: echo "Running every data at 09:04"
+        run: echo "Running every data at 09:10"
