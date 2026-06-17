@@ -1,0 +1,13 @@
+name: Schedule Workflow
+
+on: 
+  schedule:
+    - cron: '4 9 * * *'
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greeting
+        run: echo "Running every data at 09:04"
