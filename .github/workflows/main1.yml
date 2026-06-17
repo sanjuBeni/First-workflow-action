@@ -1,0 +1,19 @@
+name: Workflow 2nd
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  demo:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Greetings
+        run: echo "Hello from GitHub action"
+
+      - name: Show Date
+        run: date
+
+      - name: Show current directory
+        run: pwd
